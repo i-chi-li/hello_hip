@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.21)
+cmake_policy(VERSION 3.21.3...3.27)
+set(ProjectName simple-hip)
+set(CMAKE_CXX_STANDARD 20)
+project(${ProjectName} LANGUAGES HIP)
+add_executable(${ProjectName} main.hip)
